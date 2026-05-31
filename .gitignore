@@ -1,24 +1,49 @@
+# Python
 .venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
+# Environment variables
 .env
 .env.*
 
+# IDE
 .idea/
-
 .vscode/
 
+# Logs
 logs/
+*.log
 
+# Uploads (local development)
 uploads/
 
+# Databases
 *.sqlite3
 
+# Node
 node_modules/
 
+# Coverage
 coverage/
+htmlcov/
+.coverage
 
+# Build artifacts
 dist/
-
 build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+
+# Type checking
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
